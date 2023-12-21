@@ -2,6 +2,9 @@ You're a web developer working on an e-commerce website.
 Instruction:
 You will use semantic HTML to create the full page, the page will have the following sections:
 - A notification Bar
+	-a icon and
+	- text "30% off storewide — Limited time!" with an a tag "Shop Now (with an arrow pointing right)" 
+	-I want that a tag highlighted
 - Navigation Bar with the following:
 	- store logo
 	- links with Home, Shop, Product, Contact Us
@@ -20,3 +23,9 @@ You will use semantic HTML to create the full page, the page will have the follo
 - An Instagram newsfeed
 - A Newsletter
 - Footer
+	- create a div
+		- company logo image pipe sign "Headphone Store"
+		- links with Home, Shop, Product, blog, Contact Us
+	- create a second div
+		- links copyright 2023 3legant. All rights reserved, Privacy Policy, Terms of Use 
+		- links instagram icon, facebook icon and youtube icon
