@@ -1,3 +1,15 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@layer components {
+    /* .product-card {
+        @apply w-1/6 flex-none;
+    } */
+}
+@layer utilities {
+
+    .main-container {
+        @apply container mx-auto py-4 px-16;
+    }
+}

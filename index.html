@@ -5,38 +5,45 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Your E-Commerce Website</title>
     <!-- Add your CSS styles and JavaScript links here -->
-    <link href="./output.css" rel="stylesheet">
+    <link rel="stylesheet" href="src/output.css">
 </head>
 <body>
-
+  <!-- header section -->
+  <header>
     <!-- Notification Bar -->
-    <div class="notification-bar">
+    <div id="notification-bar" class="bg-black p-3">
+      <div class="w-1/3 mx-auto flex space-x-4">
         <!-- Your notification content goes here -->
         <img src="images/notification bar/vector.png" alt="Notification Icon" >
-        <p>
+        <p class="text-white">
             30% off storewide — Limited time!
-            <a href="#" style="text-decoration: underline; color: inherit;">Shop Now &rarr;</a>
+        <a href="#" class="text-brand-yellow underline">Shop Now &rarr;</a>
         </p>
-        
+      </div>
+    </div>
+    
+    <div class="bg-brand-yellow-2">
+    <!-- Navigation Bar -->
+      <nav id="navigation-bar" class="main-container">
+          <div class="flex justify-between items-center">
+            <p class="text-black text-2xl font-medium">3legant.</p>
+            <ul class="flex space-x-6 text-sm">
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Shop</a></li>
+                <li><a href="#">Product</a></li>
+                <li><a href="#">Contact Us</a></li>
+            </ul>
+            <div id="nav-icons" class="flex space-x-3">
+              <img src="images/nav icons/search 02.svg" alt="">
+              <img src="images/nav icons/user-circle.svg" alt="">
+              <img src="images/nav icons/Ellipse 1.svg" alt="">
+              <img src="images/nav icons/shopping bag.svg" alt="">
+            </div>
+          </div>
+      </nav>
     </div>
 
-    <!-- Navigation Bar -->
-    <nav class="navigation-bar">
-        <div class="logo">
-            <img src="logo.png" alt="Store Logo">
-        </div>
-        <ul class="nav-links">
-            <li><a href="#">Home</a></li>
-            <li><a href="#">Shop</a></li>
-            <li><a href="#">Product</a></li>
-            <li><a href="#">Contact Us</a></li>
-        </ul>
-        <div class="icons">
-            <span class="search-icon">🔍</span>
-            <span class="avatar-icon">👤</span>
-            <span class="shop-icon">🛒</span>
-        </div>
-    </nav>
+  </header>
 
     <!-- Hero Section -->
     <section class="hero-section">
